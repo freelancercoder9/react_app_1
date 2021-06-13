@@ -9,6 +9,7 @@
 }
 .userComp {
   /* background-color: yellow; */
+  padding-left: 2px;
   display: flex;
   align-items: center;
   /* border-right: 1px solid black;
@@ -55,13 +56,11 @@
   /* font-weight: bold; */
 }
 .line-menuOption {
-  width: 140px;
   color: #0a181f;
   margin-top: 1px;
   margin-bottom: 0px;
 }
 .line-menuOption1 {
-  width: 140px;
   color: #425557;
   margin-top: 1px;
   margin-bottom: 0px;
@@ -98,19 +97,18 @@
 
 /* Screen-14*/
 .main-header {
-  background-color: pink;
   height: 80px;
   align-items: center;
   vertical-align: middle;
 }
 .color-check {
-  background-color: yellow;
   align-items: center;
-  height: 70px;
+  height: 78px;
 }
 .flex-check {
   display: flex;
   align-items: center;
+  height: 50px;
   justify-content: space-evenly;
 }
 .pipe-text {
