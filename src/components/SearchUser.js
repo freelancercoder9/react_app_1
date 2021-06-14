@@ -9,7 +9,7 @@ function SearchUser(props) {
 
   useEffect(() => {
     const res = props.userList.filter((user) => {
-      return user.startsWith(searchText);
+      return user.toUpperCase().startsWith(searchText.toUpperCase());
     });
     setListData(res);
   }, [searchText, props.userList]);
