@@ -5,12 +5,12 @@ function Header14(props) {
   return (
     <div className="main-header">
       <div className="row color-check ">
-        <div className="col-md-3 ">
+        <div className="col-md-2 ">
           <div className="p-1">{props.userName1}</div>
           <div className="p-1 pipe-text">{props.pipeText}</div>
         </div>
         <div className="col-md-1"></div>
-        <div className="col-md-4 bg-dark flex-check">
+        <div className="col-md-5 flex-check comp-background">
           <button type="button" class="btn btn-info btn-sm">
             1.Verify Details
           </button>
@@ -27,8 +27,8 @@ function Header14(props) {
             5.Face Comparision
           </button>
         </div>
-        <div className="col-md-2"></div>
-        <div className="col-md-2  flex-check pr-1">
+        <div className="col-md-1"></div>
+        <div className="col-md-3  flex-check pr-1">
           <button type="button" class="btn btn-success btn-sm">
             Successfull
           </button>
@@ -40,9 +40,7 @@ function Header14(props) {
           </button>
         </div>
       </div>
-      <div>
-        <hr className="line-menuOption" />
-      </div>
+      <hr className="line-menuOption" />
     </div>
   );
 }

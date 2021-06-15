@@ -12,11 +12,7 @@ function MenuOption(props) {
       <div>
         <div className="menuOption">
           <FontAwesomeIcon icon={props.iconName} />
-          {props.isHeader ? (
-            <div className="text-workApps">{props.menuName}</div>
-          ) : (
-            <div className="text-New">{props.menuName}</div>
-          )}
+          {props.isHeader ? <div className="text-workApps">{props.menuName}</div> : <div className="text-New">{props.menuName}</div>}
         </div>
         {props.isLine ? (
           <div>
