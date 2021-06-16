@@ -3,7 +3,7 @@ import React from "react";
 function PopUp15(props) {
   return (
     <div className="main-popup-15">
-      <header className="popup-15">Verify Details</header>
+      <header className="popup-15 bg-info text-light fw-bold align-middle">Verify Details</header>
       <div>
         <div className="details">
           <label htmlFor="">DOB</label>
