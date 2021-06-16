@@ -124,3 +124,27 @@
   height: 500px;
   border: 1px solid red;
 }
+/* Screen-15*/
+.main-popup-15 {
+  width: 450px;
+  border: 1px solid black;
+}
+.popup-15 {
+  background-color: yellow;
+}
+.details {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 10px;
+}
+label {
+  /* background-color: lightblue; */
+  width: 40%;
+}
+.foot-pop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: lightgray;
+}
