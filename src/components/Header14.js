@@ -1,4 +1,5 @@
 import React from "react";
+import { useLocation } from "react-router";
 import "../style.css";
 
 function Header14(props) {
@@ -6,11 +7,11 @@ function Header14(props) {
     <div className="main-header">
       <div className="row color-check ">
         <div className="col-md-2 ">
-          <div className="p-1">{props.userName1}</div>
-          <div className="p-1 pipe-text">{props.pipeText}</div>
+          <div className="p-1">{"Vivek"}</div>
+          <div className="p-1 pipe-text">{"scndsjcsd"}</div>
         </div>
-        <div className="col-md-1"></div>
-        <div className="col-md-5 flex-check comp-background">
+
+        <div className="col-md-6 flex-check comp-background">
           <button type="button" class="btn btn-info btn-sm">
             1.Verify Details
           </button>
