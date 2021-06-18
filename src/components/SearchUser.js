@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 import "../style.css";
 import UserComp from "./UserComp";
+
 function SearchUser(props) {
   const [searchText, setSearchText] = useState("");
   const [listData, setListData] = useState([...props.userList]);
-  const filterData = () => {
-    console.log(searchText);
-  };
+
+  useEffect(() => {
+    const res = props.userList.filter((user) => {
+      return user.toUpperCase().startsWith(searchText.toUpperCase());
+    });
+    setListData(res);
+  }, [searchText, props.userList]);
+
   return (
     <div className="searchUser">
       <div>

@@ -9,6 +9,7 @@
 }
 .userComp {
   /* background-color: yellow; */
+  padding-left: 6px;
   display: flex;
   align-items: center;
   /* border-right: 1px solid black;
@@ -55,13 +56,11 @@
   /* font-weight: bold; */
 }
 .line-menuOption {
-  width: 140px;
   color: #0a181f;
   margin-top: 1px;
   margin-bottom: 0px;
 }
 .line-menuOption1 {
-  width: 140px;
   color: #425557;
   margin-top: 1px;
   margin-bottom: 0px;
@@ -97,22 +96,115 @@
 }
 
 /* Screen-14*/
+.comp-background {
+  background-color: #e9f5f3;
+  border: 1px solid #d9d9d9;
+}
 .main-header {
-  background-color: pink;
   height: 80px;
   align-items: center;
   vertical-align: middle;
 }
 .color-check {
-  background-color: yellow;
   align-items: center;
-  height: 70px;
+  height: 78px;
 }
 .flex-check {
   display: flex;
   align-items: center;
+  height: 50px;
   justify-content: space-evenly;
 }
 .pipe-text {
   font-size: 10px;
+}
+.app_container {
+  margin-top: 10px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+}
+/* Screen-15*/
+.main-popup-15 {
+  width: 450px;
+  border: 1px solid black;
+}
+.popup-15 {
+  height: 35px;
+  vertical-align: middle;
+}
+.details {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 10px;
+}
+
+label {
+  /* background-color: lightblue; */
+  width: 40%;
+}
+.foot-pop {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: lightgray;
+}
+/* screen 16 */
+.live-popUp {
+  width: 60%;
+  /* height: 600px; */
+}
+.popup-data {
+  /* background-color: yellow; */
+  display: flex;
+}
+.img-pop {
+  /* background-color: lightgreen; */
+  width: 50%;
+  border-right: 1px solid black;
+}
+img {
+  /* background-color: burlywood; */
+  width: 350px;
+  padding: 10px;
+}
+.pop-details {
+  /* background-color: pink; */
+  width: 50%;
+  align-items: center;
+}
+.pop-details-1 {
+  width: 90%;
+  margin-left: 5%;
+}
+.pan-num {
+  font-size: 20px;
+  padding: 10px;
+  /* text-align: center; */
+}
+.live-details {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin: 5px;
+}
+label {
+  /* background-color: aqua; */
+  width: 47%;
+  font-size: 13px;
+}
+.live-btn {
+  margin-top: 50%;
+}
+.btn {
+  margin-right: 15px;
+}
+
+footer {
+  height: 70px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
